@@ -3,7 +3,7 @@ def replace_all(text, dic):
         text = text.replace(i, j)
     return text
  
-my_text = (raw_input("Enter miles driven:"))
+my_text = (raw_input("Enter Ciphered Text:"))
  
 reps = {'A':'k','B':'l','C':'m','D':'n','E':'o','F':'p','G':'q','H':'r','I':'s','J':'t','K':'u','L':'v','M':'w','N':'x','O':'y','P':'z','Q':'a','R':'b','S':'c','T':'d','U':'e','V':'f','W':'g','X':'h','Y':'i','Z':'j'}
 reps = {'K':'a','L':'b','M':'c','N':'d','O':'e','P':'f','Q':'g','R':'h','S':'i','T':'j','U':'k','V':'l','W':'m','X':'n','Y':'o','Z':'p','A':'q','B':'r','C':'s','D':'t','E':'u','F':'v','G':'w','H':'x','I':'y','J':'z'}
